@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Dashboard-fitpo-assignment/static/css/main.09a3eb0e.css",
+    "main.js": "/Dashboard-fitpo-assignment/static/js/main.f65ba726.js",
+    "static/js/787.52477e59.chunk.js": "/Dashboard-fitpo-assignment/static/js/787.52477e59.chunk.js",
+    "index.html": "/Dashboard-fitpo-assignment/index.html",
+    "main.09a3eb0e.css.map": "/Dashboard-fitpo-assignment/static/css/main.09a3eb0e.css.map",
+    "main.f65ba726.js.map": "/Dashboard-fitpo-assignment/static/js/main.f65ba726.js.map",
+    "787.52477e59.chunk.js.map": "/Dashboard-fitpo-assignment/static/js/787.52477e59.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.09a3eb0e.css",
+    "static/js/main.f65ba726.js"
+  ]
+}
