@@ -2,19 +2,19 @@ import React from 'react'
 import { Saledata } from './Saledata'
 
 const ProductSaleData = (props) => {
-    console.log(props)
+    console.log(props.img)
     return (
-        <div>
-            <div>
+        <div className='product-sale-inner-container'>
+            <div className='left-inner'>
                 <div className="img">
-                    <img src="" alt="" />
+                    <img src={`${props.img}`} alt="" />
                 </div>
                 <div className="h1-and-detail">
                     <h1>{props.h1 }</h1>
                     <p>{ props.details}</p>
                 </div>
             </div>
-            <div>
+            <div className='right-inner'>
                 <ul>
                     <li>{props.stock }</li>
                     <li>{props.price }</li>
@@ -59,7 +59,7 @@ const ProductSale = () => {
                     return (
                         <ProductSaleData
                             key={val.id}
-                            icon={val.img}
+                            img={val.img}
                             h1={val.h1}
                             details={val.details}
                             stock={val.stock}
